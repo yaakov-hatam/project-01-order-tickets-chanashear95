@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
+
+.main-container {
+  color: 	#a78a58;
+  margin: 20px auto;
+  text-align: center
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.title{
+  color: 	#5875a7;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 3rem;
+}
+
+span {
+font-weight: bold;
+}
+
+select, input, .dateBtn {
+  background-color: #d2d5d9;
+  color: #5875a7;
+  font-weight: bold;
+  padding: 5px;
+  width: 170px;
+  border: none;
+  font-size: 24px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  border-radius: 10%
+}
+
+.dateBtn:focus{
+  background-color: #8d8e8f;
+}
+
+.searchBtn, .nxt-btn {
+  margin: 20px auto;
+  background-color: #5875a7;
+  color: 	#a78a58;
+  font-weight: bold;
+  border-radius: 10%;
+  padding: 5px;
+  width: 100px;
+}
+
+.nxt-btn:disabled{
+  background-color: grey;
+}
+
+.nxt-btn:disabled:hover{
+  background-color: grey;
+}
+
+
+.searchBtn:hover, .nxt-btn:hover{
+  background-color: #3d5174;
+}
+
+
+.dateBtn  {
+  width: 150px;
+  font-size: 1rem;
+}
+
+.lowestPrice, .price{
+  color: #e36d12;
+  font-weight: bold;
+}
+
+
+.bookBtn {
+  margin: 20px auto;
+  background-color:#a78a58;
+  color: 	#5875a7;
+  font-weight: bold;
+  border-radius: 10%;
+  padding: 5px;
+  width: 100px;
+  border: none;
+}
+
+.bookBtn:hover {
+  background-color: #74603d;
+}
+
+table{
+  text-align: center;
+}
+
+th {
+  color: 	#5875a7;
+  font-size: 1.3rem;
+}
+
+td{
+  color:#a78a58;
+  font-weight: bold
+}
+
+figcaption {
+  color: 	#5875a7;
+}
+
+.features{
+  color: black;
+}
+
+.disabled{
+  margin: 20px auto;
+  background-color:grey;
+  color: 	#5875a7;
+  font-weight: bold;
+  border-radius: 10%;
+  padding: 5px;
+  width: 100px;
+  border: none;
+}
+
+
+img{
+  width: 100px;
+}
+
+.mobile-display{
+  display: none;
+}
+
+.tablet-display{
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px){
+  .mobile-display{
+    display: block;
+  }
+input, select {
+   margin: 10px;
+   width: 80%;
+ }
+ .form span{
+  display: inline-block;
+  width: 150px
+}
+
+ .dateBtn  {
+  width: 100px;
+  font-size: .8rem;
+}
+}
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 1250px){
+  .tablet-display{
+    display: block;
+  }
+input, select {
+   margin-left: 10px;
+   width: 25%;
+ }
+
+ .form span{
+   display: inline-block;
+   width: 150px
+ }
+
+ .dateBtn  {
+  width: 100px;
+  font-size: .8rem;
+}
+}

@@ -1,0 +1,35 @@
+{
+  "name": "bustickets",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "date-carousel": "^1.2.1",
+    "react": "^16.9.0",
+    "react-bootstrap-table": "^4.3.1",
+    "react-device-detect": "^1.9.10",
+    "react-dom": "^16.9.0",
+    "react-responsive-carousel": "^3.1.50",
+    "react-scripts": "3.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
